@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sr conta</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/whats.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+
+<body>
+ 
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v10.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="102695451877500"
+theme_color="#ff7e29"
+logged_in_greeting="hola bienvenido a Srconta?"
+logged_out_greeting="hola bienvenido a Srconta?">
+    </div>
+    
+<!--api de whatsapp -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=50257379800&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <img src="img/logosrconta.png" alt="">
+                </div>
+                <div class="enlaces-header">
+                    <a href="index.html">Inicio</a>
+                    <a href="#infomas">acerca de nosotros</a>
+                    <a href="#contacts">contacto</a>
+                    <!--<a href="#">Inicio</a>-->
+                    <!--<a href="#">Inicio</a>-->
+                </div>
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+            
+        </nav>
+        
+        <div class="contenedor">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>Sr Conta </h1>
+                    <p>La manera correcta de llevar la contabilidad</p>
+                    <a href="#contacts">Contacto</a>
+                </section>
+                <img src="img/vector.png" alt=""
+                ></section>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">¿Cansado de lidiar con problemas de registro contable y problemas con la SAT?</h2>
+            <div class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Habilitacion de Agencia Virtual</h3>
+                    <p>No tenes tiempo para trasladar hacia la oficina  o no sabes como gestionar llegastes al lugar correcto</p>
+                    <a href="#contacts">mas información --></a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class= "fas fa-address-card"></i>
+                    <h3>inscripcion de pequeño contribuyente</h3>
+                    <p>Estas pensando en aperturar un negocio, adelante realizas todo legal no dudad en contactarnos</p>
+                    <a href="#contacts">mas información --></a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fab fa-accusoft"></i>
+                    <h3>Contabilidad</h3>
+                    <p> para que tu informacion este al día nosotro llevamos registro contables de pequeñas y grandes empresas.
+                </p>
+                    <a href="#contacts">mas información --></a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-archway"></i>
+                    <h3>Cancelación de negocios</h3>
+                    <p>ya no esta funcionando tu establecimiento comercial, ya te aburriste de declara, puedes comunicarte le damos la solucion</p>
+                    <a href="#contacts">mas información ---></a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-bookmark"></i>
+                    <h3>Afiliacion a Facturas Eletronicas FEL</h3>
+                    <p>la forma más facil de emitir facturas es a través de un teléfono inteletigente o computadora, que estas esperando comunicate?</p>
+                    <a href="#contacts">mas información ---></a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-business-time"></i>
+                    <h3>patente de comercio</h3>
+                    <p>Necesitas realizar el tramite de tu patente, ya no piense mas asesorate o deja que nosostro lo hacemos</p>
+                    <a href="#contacts">mas información ---></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- informacon de la empresa-->
+    <section id=infomas class="questions contenedor">
+        <section class="textos-questions">
+            <h1></h1>
+            <p> Desde sus comienzos en el año 2019, Sr. Conta GT  es conocido por su compromiso auténtico con la satisfacción del cliente. Este estándar de excelencia nos ha permitido crecer hasta llegar a donde estamos ahora. Para más información sobre nuestros productos y servicios, contáctanos. </p>            
+            <a href="#">acerca de nostros</a>
+        </section>
+        <img src="img/segundaIlustracion.svg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+    </section>
+
+    <section class="results">
+        <div class="contenedor1 conten-results">
+            <section class="numbers">
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>control interno</h4>
+                    <p>haz  que tu empresa obtenga estandares de calidad y optimizacion de procesos</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>programas 
+                        contables</h4>
+                    <p>Aun llevas los registros en excel o en hojas fisicas, es tiempo de utilizar un software para opimizar tu trabajo</p>
+                </div>
+           <!--     <div class="number" data-aos="zoom-in-left">
+                    <h4></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id.</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>+8863</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id.</p>
+                </div> -->
+            </section>
+            <section class="results-text">
+                <h4>Consultoria y auditoria</h4>
+                <p>Necesitas evaluar tu empresa, Sr conta realiza autioria financiera, operacional, informatica, recursos humanos tanto intenrno y externo  </p>
+                <a href="#">Ingrese aquí</a>
+            </section>
+        </div>
+    </section>
+
+    <section class="contenedor1 services">
+        <img src="img/terceraIlustracion.svg" alt="">
+        <div class="box-skills">
+            <h4><i class="far fa-check-circle"></i> Servico de calidad</h4>
+            <h4><i class="far fa-check-circle"></i> disponible las 24 horas</h4>
+            <h4><i class="far fa-check-circle"></i> Equipo competente</h4>
+           <!-- <h4><i class="far fa-check-circle"></i> </h4> -->
+            <h4><i class="far fa-check-circle"></i> soporte desde la web</h4>
+        </div>
+    </section>
+
+  <!-- datos para php -->
+<div>
+    <section id=contacts class="coreo">
+                <h4 class="amor">Mas información</h4>
+    
+            <form  action="coreo.php" method="POST">
+    
+                            <input class="cuadro1" type="text" name="nombre"  placeholder="Nombre" required>
+    
+                            <input class="cuadro1" type="text" name="mensaje"  placeholder="Mensaje" required>
+    
+                            <input class="cuadro1"  type="email" name="email" placeholder="Correo" required>
+                            <input class="coreo4 "type="submit" value="Enviar">      
+            </div>
+      <!-- foooter  de mi page-->
+    <footer>
+        <div class="partFooter">
+            <img src="img/logosrconta.png" alt="">
+        </div>
+        <div class="partFooter">
+            <h4>Servicios</h4>
+            <a href="#">Asesoria</a>
+            <a href="#">Contabilidad</a>
+            <a href="#">Cosultoria y Auditoria </a>
+        </div>
+        <div class="partFooter">
+            <h4>Acerca de</h4>
+            <a href="#">Sr conta</a>
+            <a href="mailto:srcontagt@gmail.com">srcontagt@gmail.com</a>
+            <a href="callto:+502 57379800">+502 5737-9800</a>
+        </div>
+        <div class="partFooter">
+            <h4>Redes sociales</h4>
+            <div class="social-media">
+                <a href="https://www.facebook.com/SrcontaGTM" i class="fab fa-facebook-f"></i></a>    
+                
+                  <!--  <i class="fab fa-twitter"></i> -->
+                    <i class="fab fa-instagram"></i>
+                  <!-- <a href="https://www.facebook.com/SrcontaGTM" i class="fab fa-youtube"></i></a> -->
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
